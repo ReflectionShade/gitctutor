@@ -56,3 +56,5 @@ func process(messages <-chan *message.Message) {
 func helloGit(onTheLevel string) {
 	fmt.Println(onTheLevel)
 }
+
+// my small update from website 
