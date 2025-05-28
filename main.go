@@ -33,6 +33,8 @@ func main() {
 	publishMessages(pubSub)
 }
 
+// my second edit from the web
+
 func publishMessages(publisher message.Publisher) {
 	for {
 		msg := message.NewMessage(watermill.NewUUID(), []byte("Hello world"))
