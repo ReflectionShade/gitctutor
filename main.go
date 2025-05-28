@@ -52,3 +52,7 @@ func process(messages <-chan *message.Message) {
 		msg.Ack()
 	}
 }
+
+func helloGit(onTheLevel string) {
+	fmt.Println(onTheLevel)
+}
